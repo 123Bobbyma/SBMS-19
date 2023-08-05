@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;in.ashok.it&apos; to &apos;03-First-Spring-App/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;02-Payment-PP&apos;&#x0D;&#x0A;- Destination element: &apos;03-First-Spring-App/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;02-Payment-PP/src/in.ashok.it&apos;" description="Copy package" destination="=03-First-Spring-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;in.ashok.it" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1686896868265" version="1.0"/>
+</session>

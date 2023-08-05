@@ -1,0 +1,14 @@
+package com.ashokit.rest;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CourseRestController {
+
+	public ResponseEntity<String> getCourseDteials( @ResponseBody("cname") String cname, String ctrainer){
+		
+		return new ResponseEntity<String>(null, null);
+	}
+}

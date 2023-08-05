@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+	<address>
+		<city>partur</city>
+		<houseNo>21</houseNo>
+		<pincode>431052</pincode>
+		<street>shivaji nagar</street>
+	</address>
+	<age>26</age>
+	<email>marwhabpbby@gmail.com</email>
+	<mobile>123456</mobile>
+	<name>Ram</name>
+</person>

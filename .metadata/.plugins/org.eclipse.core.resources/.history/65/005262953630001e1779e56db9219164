@@ -1,0 +1,10 @@
+package in.ashokit.main;
+
+import in.ashokit.Person;
+
+public class Main {
+
+	
+	Person person = new Person();
+	person.
+}

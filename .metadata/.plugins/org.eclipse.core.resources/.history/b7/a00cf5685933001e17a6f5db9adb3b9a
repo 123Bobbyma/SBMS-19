@@ -1,0 +1,27 @@
+package com.ashokit.controller;
+
+import org.springframework.boot.autoconfigure.kafka.KafkaProperties.Producer;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ashokit.binding.Product;
+
+@RestController
+public class ProductController {
+
+	@GetMapping(value = "/product",
+			produces = {"application/xml","application/json"}
+			)
+	public ResponseEntity<Product> getProductDetails(){
+		
+		Product p = new Product();
+		p.setpId(101);
+		p.setpName("mouse");
+		p.setpPrice("500");
+		
+		return new ResponseEntity<>(p, HttpStatus.OK);
+		
+	}
+}

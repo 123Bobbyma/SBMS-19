@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;26-WebMVC-form-Validations-3/src/main/webapp/pages/form.jsp&apos; to &apos;index.jsp&apos;" description="Rename resource &apos;form.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/pages/form.jsp" name="index.jsp" stamp="1690441623436" updateReferences="true"/>
+</session>
